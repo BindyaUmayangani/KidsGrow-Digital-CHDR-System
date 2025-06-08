@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteBase /KidsGrow/
+
+# Bypass rewrite if "no_rewrite=1" is present in the query string
+RewriteCond %{QUERY_STRING} no_rewrite=1 [NC]
+RewriteRule ^ - [L]
+
+# Redirect direct requests for .php files to the extensionless URL
+RewriteCond %{THE_REQUEST} \s/KidsGrow/([^.]+)\.php[\s?] [NC]
+RewriteRule ^([^.]+)\.php$ /KidsGrow/%1 [R=301,L]
+
+# Internally rewrite extensionless URLs to the corresponding .php file
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^([^.]+)$ $1.php [L]

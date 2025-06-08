@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Filter Example</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; background-color: #f4f4f4; }
+        .filter-btn { background-color: #007bff; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer; }
+        .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.4); }
+        .modal-content { background-color: #fff; margin: 10% auto; padding: 20px; width: 50%; border-radius: 8px; }
+        .close { float: right; font-size: 20px; cursor: pointer; }
+        .filter-form { display: flex; flex-direction: column; gap: 10px; }
+        .filter-group { display: flex; flex-direction: column; }
+        .filter-group label { font-weight: bold; }
+        .filter-group input, .filter-group select { padding: 8px; margin-top: 5px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; background: white; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+        th { background-color: #007bff; color: white; }
+    </style>
+</head>
+<body>
+
+    <button class="filter-btn" id="openModal">Filter by Weight</button>
+
+    <!-- Filter Modal -->
+    <div id="filterModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Filter by Weight</h2>
+            <form class="filter-form" id="filterForm">
+                <div class="filter-group">
+                    <label for="weightFilterType">Filter Type:</label>
+                    <select id="weightFilterType">
+                        <option value="equal">Equal To (=)</option>
+                        <option value="greater">Greater Than (&gt;)</option>
+                        <option value="less">Less Than (&lt;)</option>
+                        <option value="range">Between (Min - Max)</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="minWeight">Min Weight (kg):</label>
+                    <input type="number" id="minWeight" step="0.01">
+                </div>
+
+                <div class="filter-group">
+                    <label for="maxWeight">Max Weight (kg):</label>
+                    <input type="number" id="maxWeight" step="0.01">
+                </div>
+
+                <div class="button-container">
+                    <button type="button" class="filter-btn" id="applyFilters">Apply</button>
+                    <button type="button" class="filter-btn" id="resetFilters">Reset</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Sample Table -->
+    <table>
+        <thead>
+            <tr>
+                <th>Child ID</th>
+                <th>Name</th>
+                <th>Weight (kg)</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            <tr data-weight="3.20"><td>1</td><td>Kawesha</td><td>3.20 kg</td></tr>
+            <tr data-weight="2.80"><td>2</td><td>Janith</td><td>2.80 kg</td></tr>
+            <tr data-weight="3.50"><td>3</td><td>Isuru</td><td>3.50 kg</td></tr>
+            <tr data-weight="4.00"><td>4</td><td>Nimal</td><td>4.00 kg</td></tr>
+        </tbody>
+    </table>
+
+    <script>
+        document.getElementById("openModal").onclick = () => document.getElementById("filterModal").style.display = "block";
+        document.getElementById("closeModal").onclick = () => document.getElementById("filterModal").style.display = "none";
+        window.onclick = event => { if (event.target === document.getElementById("filterModal")) document.getElementById("filterModal").style.display = "none"; };
+
+        document.getElementById("applyFilters").onclick = function () {
+            let filterType = document.getElementById("weightFilterType").value;
+            let minWeight = parseFloat(document.getElementById("minWeight").value);
+            let maxWeight = parseFloat(document.getElementById("maxWeight").value);
+            let rows = document.querySelectorAll("#tableBody tr");
+
+            rows.forEach(row => {
+                let weight = parseFloat(row.dataset.weight);
+                let matches = false;
+
+                if (filterType === "equal" && !isNaN(minWeight)) {
+                    matches = (weight === minWeight);
+                } else if (filterType === "greater" && !isNaN(minWeight)) {
+                    matches = (weight > minWeight);
+                } else if (filterType === "less" && !isNaN(maxWeight)) {
+                    matches = (weight < maxWeight);
+                } else if (filterType === "range" && !isNaN(minWeight) && !isNaN(maxWeight)) {
+                    matches = (weight >= minWeight && weight <= maxWeight);
+                } else {
+                    matches = true;
+                }
+
+                row.style.display = matches ? "" : "none";
+            });
+
+            document.getElementById("filterModal").style.display = "none";
+        };
+
+        document.getElementById("resetFilters").onclick = function () {
+            document.getElementById("minWeight").value = "";
+            document.getElementById("maxWeight").value = "";
+            document.querySelectorAll("#tableBody tr").forEach(row => row.style.display = "");
+        };
+    </script>
+
+</body>
+</html>

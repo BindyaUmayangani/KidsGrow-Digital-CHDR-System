@@ -1,0 +1,32 @@
+# Ignore backup, error, and old folders
+Backups/
+Error/
+Mini/
+old/
+
+# Ignore PHPMailer and vendor libraries
+PHPMailer-master/
+
+# Ignore log files
+*.log
+
+# Ignore temporary/backup files
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Node or Composer dependencies (if any in future)
+node_modules/
+vendor/
+
+# Environment or secret config files (if used)
+.env
+.env.*

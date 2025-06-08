@@ -1,0 +1,2014 @@
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-21da4141123sm48475755ad.112 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-21da4141123sm48475755ad.112 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-21da4141123sm48475755ad.112 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead d9443c01a7336-21da4141123sm48475755ad.112 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Sun, 26 Jan 2025 17:57:57 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <O6zedTWSjrYmIAnTteKigxAyNwk1txeSthzUDjT4@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1737910681 d9443c01a7336-21da4141123sm48475755ad.112 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-21da4141123sm48475755ad.112 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-21da3d9c5efsm47994305ad.49 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-21da3d9c5efsm47994305ad.49 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<manidumaneeshaw@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-21da3d9c5efsm47994305ad.49 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead d9443c01a7336-21da3d9c5efsm47994305ad.49 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Sun, 26 Jan 2025 17:58:02 +0100
+Debug level 1: CLIENT -> SERVER: To: Manidu Maneesha <manidumaneeshaw@gmail.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <c9YEh15NRRC80Z9q9gtSOJcoFNMuX7tmHSM6cfvAM@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear Manidu Maneesha,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1737910686 d9443c01a7336-21da3d9c5efsm47994305ad.49 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-21da3d9c5efsm47994305ad.49 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-21da3ea1c2asm48089745ad.54 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-21da3ea1c2asm48089745ad.54 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-21da3ea1c2asm48089745ad.54 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead d9443c01a7336-21da3ea1c2asm48089745ad.54 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Sun, 26 Jan 2025 18:52:28 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <pYCvFWPz58vvRe9u8pvyiHBp7QbTJOva2VCIUlfzl4@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1737913952 d9443c01a7336-21da3ea1c2asm48089745ad.54 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-21da3ea1c2asm48089745ad.54 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-2f7ffa6a725sm6068901a91.21 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-2f7ffa6a725sm6068901a91.21 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-2f7ffa6a725sm6068901a91.21 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-2f7ffa6a725sm6068901a91.21 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Sun, 26 Jan 2025 18:56:28 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <RKdrfPMWnygSiJBqO97Xiky86AwyGPQb8N03HtgAhY@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1737914192 98e67ed59e1d1-2f7ffa6a725sm6068901a91.21 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-2f7ffa6a725sm6068901a91.21 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-2f7ffaf8b27sm5401634a91.37 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-2f7ffaf8b27sm5401634a91.37 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-2f7ffaf8b27sm5401634a91.37 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-2f7ffaf8b27sm5401634a91.37 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Sun, 26 Jan 2025 19:05:43 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <N1Rvter3zvFsb583Wp9Z6vYH3nEVG2TitnM2ajxpt0@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1737914748 98e67ed59e1d1-2f7ffaf8b27sm5401634a91.37 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-2f7ffaf8b27sm5401634a91.37 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-21da4141dd2sm48186505ad.107 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-21da4141dd2sm48186505ad.107 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-21da4141dd2sm48186505ad.107 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead d9443c01a7336-21da4141dd2sm48186505ad.107 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Sun, 26 Jan 2025 19:12:04 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <LDo1bqsHlc9WTucnyQKSBD9j45mfa1PUPCR09AOqjw@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1737915128 d9443c01a7336-21da4141dd2sm48186505ad.107 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-21da4141dd2sm48186505ad.107 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-72f8a6b2c07sm5531712b3a.40 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-72f8a6b2c07sm5531712b3a.40 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-72f8a6b2c07sm5531712b3a.40 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-72f8a6b2c07sm5531712b3a.40 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Sun, 26 Jan 2025 19:18:13 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <JlDrhhv1ZCqzrvgfqZlSNK2bJVmX143IKSCopo5Nb0@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1737915497 d2e1a72fcca58-72f8a6b2c07sm5531712b3a.40 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-72f8a6b2c07sm5531712b3a.40 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 41be03b00d2f7-ac496bbd01esm4915246a12.71 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK 41be03b00d2f7-ac496bbd01esm4915246a12.71 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK 41be03b00d2f7-ac496bbd01esm4915246a12.71 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead 41be03b00d2f7-ac496bbd01esm4915246a12.71 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Sun, 26 Jan 2025 19:19:42 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <Kbt8jCKbFeYoDOFPYBsksGiwYUAMyYdCsj1MzxJWSaU@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1737915587 41be03b00d2f7-ac496bbd01esm4915246a12.71 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection 41be03b00d2f7-ac496bbd01esm4915246a12.71 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-72f8a77c595sm5658493b3a.143 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-72f8a77c595sm5658493b3a.143 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-72f8a77c595sm5658493b3a.143 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-72f8a77c595sm5658493b3a.143 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Sun, 26 Jan 2025 19:20:54 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <dhdpYyAs3lvkAT5XNLLLPzujmODVlCV907wclANQXQ@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1737915659 d2e1a72fcca58-72f8a77c595sm5658493b3a.143 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-72f8a77c595sm5658493b3a.143 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-72f8a7614e9sm5687641b3a.109 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-72f8a7614e9sm5687641b3a.109 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-72f8a7614e9sm5687641b3a.109 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-72f8a7614e9sm5687641b3a.109 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Sun, 26 Jan 2025 19:25:33 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <gcByeCAcMOMa7kc5r6PP8MQE3uoPKYy4kyc7FxLyFY@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1737915938 d2e1a72fcca58-72f8a7614e9sm5687641b3a.109 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-72f8a7614e9sm5687641b3a.109 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-21da3d9c552sm49224995ad.18 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-21da3d9c552sm49224995ad.18 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-21da3d9c552sm49224995ad.18 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead d9443c01a7336-21da3d9c552sm49224995ad.18 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Sun, 26 Jan 2025 19:40:17 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <zi2leK9rWTwaTc1EfuTmsqwU6ASGOMbwBGph0wWBTU@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1737916822 d9443c01a7336-21da3d9c552sm49224995ad.18 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-21da3d9c552sm49224995ad.18 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-2f7ffaf8961sm5423908a91.31 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-2f7ffaf8961sm5423908a91.31 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-2f7ffaf8961sm5423908a91.31 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-2f7ffaf8961sm5423908a91.31 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Sun, 26 Jan 2025 19:40:55 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <v8lr40Fx0tN8lqmI8tKkeSFSXBnEGMVKw6PJdAaQ@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1737916860 98e67ed59e1d1-2f7ffaf8961sm5423908a91.31 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-2f7ffaf8961sm5423908a91.31 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-2f7ffa82f74sm5515669a91.45 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-2f7ffa82f74sm5515669a91.45 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-2f7ffa82f74sm5515669a91.45 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-2f7ffa82f74sm5515669a91.45 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Sun, 26 Jan 2025 19:41:37 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <Ua2ntO9Z0b99WyxAT7Vm2EUgLotofgNwgpq9QTeiY@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1737916903 98e67ed59e1d1-2f7ffa82f74sm5515669a91.45 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-2f7ffa82f74sm5515669a91.45 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 41be03b00d2f7-ac496e9ee7fsm4961630a12.73 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK 41be03b00d2f7-ac496e9ee7fsm4961630a12.73 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK 41be03b00d2f7-ac496e9ee7fsm4961630a12.73 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead 41be03b00d2f7-ac496e9ee7fsm4961630a12.73 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Sun, 26 Jan 2025 19:46:41 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <8hYF53FkUY4v4CRemdDHPDUqA40XJnDJ1SvQJBEybI@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1737917206 41be03b00d2f7-ac496e9ee7fsm4961630a12.73 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection 41be03b00d2f7-ac496e9ee7fsm4961630a12.73 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 41be03b00d2f7-ac4907f0f60sm4856504a12.40 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK 41be03b00d2f7-ac4907f0f60sm4856504a12.40 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK 41be03b00d2f7-ac4907f0f60sm4856504a12.40 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead 41be03b00d2f7-ac4907f0f60sm4856504a12.40 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Sun, 26 Jan 2025 19:49:10 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <kpsN8vbtlxPvGK2stec4IwzxsuwuYCvh2AnpLMEc8Uk@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1737917354 41be03b00d2f7-ac4907f0f60sm4856504a12.40 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection 41be03b00d2f7-ac4907f0f60sm4856504a12.40 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-72f8a69fb49sm5520839b3a.1 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.64.171]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-72f8a69fb49sm5520839b3a.1 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-72f8a69fb49sm5520839b3a.1 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-72f8a69fb49sm5520839b3a.1 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Sun, 26 Jan 2025 19:50:15 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <l4BRyCBJMM7INjqguFrWZKCC0RxF8xxlCftCLohQ@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1737917419 d2e1a72fcca58-72f8a69fb49sm5520839b3a.1 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-72f8a69fb49sm5520839b3a.1 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-72f8a69fdfasm6017777b3a.9 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.77.254]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.77.254]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-72f8a69fdfasm6017777b3a.9 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-72f8a69fdfasm6017777b3a.9 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-72f8a69fdfasm6017777b3a.9 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Mon, 27 Jan 2025 04:51:37 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <4n19mbnWAnKRPMzavQNNAaTeFqJuy0sjfilcaalpE1g@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1737949902 d2e1a72fcca58-72f8a69fdfasm6017777b3a.9 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-72f8a69fdfasm6017777b3a.9 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-21da414e022sm52449225ad.198 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.77.254]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.77.254]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-21da414e022sm52449225ad.198 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-21da414e022sm52449225ad.198 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead d9443c01a7336-21da414e022sm52449225ad.198 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Mon, 27 Jan 2025 04:59:21 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <MhBysA2f6XN5FNrMu1vI09tbXDKdxD9qUFR0g85F6o@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1737950366 d9443c01a7336-21da414e022sm52449225ad.198 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-21da414e022sm52449225ad.198 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-21da3ea3032sm52900315ad.80 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.77.254]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.135.77.254]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-21da3ea3032sm52900315ad.80 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-21da3ea3032sm52900315ad.80 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead d9443c01a7336-21da3ea3032sm52900315ad.80 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Mon, 27 Jan 2025 05:02:06 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <az0RhJmwShhHShiw5teGx7NFnmQ0FJ5LoudbhAj06Y@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1737950531 d9443c01a7336-21da3ea3032sm52900315ad.80 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-21da3ea3032sm52900315ad.80 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-72f8a77c892sm8237497b3a.151 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-72f8a77c892sm8237497b3a.151 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-72f8a77c892sm8237497b3a.151 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-72f8a77c892sm8237497b3a.151 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Tue, 28 Jan 2025 07:06:30 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <8aEk7DxpZlimcgV2L3yFmIwGBwIvh16F1gMgz9r8Dc@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1738044395 d2e1a72fcca58-72f8a77c892sm8237497b3a.151 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-72f8a77c892sm8237497b3a.151 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-72f8a77dad8sm8220611b3a.154 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-72f8a77dad8sm8220611b3a.154 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-72f8a77dad8sm8220611b3a.154 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-72f8a77dad8sm8220611b3a.154 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Tue, 28 Jan 2025 07:09:08 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <BpVky4PSbXsrKqs2R92gQq7zTmZH0Kt580VDbkQsm4@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1738044554 d2e1a72fcca58-72f8a77dad8sm8220611b3a.154 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-72f8a77dad8sm8220611b3a.154 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-21da414db2asm72947105ad.169 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-21da414db2asm72947105ad.169 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-21da414db2asm72947105ad.169 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead d9443c01a7336-21da414db2asm72947105ad.169 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Tue, 28 Jan 2025 07:09:26 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <nv7BgoLdYX3PBQmeunh0sp9YB0axMDo6IRumBysb9w@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1738044572 d9443c01a7336-21da414db2asm72947105ad.169 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-21da414db2asm72947105ad.169 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-2f7ffb19938sm9443644a91.45 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-2f7ffb19938sm9443644a91.45 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-2f7ffb19938sm9443644a91.45 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-2f7ffb19938sm9443644a91.45 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Tue, 28 Jan 2025 15:25:55 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <xZ77xbz2upHU0Dm4xoBXYwjaDS9cRT41mF0BrqLF8nI@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1738074359 98e67ed59e1d1-2f7ffb19938sm9443644a91.45 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-2f7ffb19938sm9443644a91.45 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-2f7ffa8122fsm9328848a91.41 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-2f7ffa8122fsm9328848a91.41 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-2f7ffa8122fsm9328848a91.41 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-2f7ffa8122fsm9328848a91.41 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Tue, 28 Jan 2025 15:57:44 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <PG0lDibg3HtRqmmD3xtlt42agrahoKDvCCkqfEAMvo@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1738076268 98e67ed59e1d1-2f7ffa8122fsm9328848a91.41 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-2f7ffa8122fsm9328848a91.41 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-2f7ffa44cb8sm9473025a91.6 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-2f7ffa44cb8sm9473025a91.6 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-2f7ffa44cb8sm9473025a91.6 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-2f7ffa44cb8sm9473025a91.6 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Tue, 28 Jan 2025 17:59:00 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <jsailYcO2lWGmkhKmiNZLxcuimgit7yPzEdx5fF7QHo@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1738083544 98e67ed59e1d1-2f7ffa44cb8sm9473025a91.6 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-2f7ffa44cb8sm9473025a91.6 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-72f8a78f18asm9662265b3a.177 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-72f8a78f18asm9662265b3a.177 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-72f8a78f18asm9662265b3a.177 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-72f8a78f18asm9662265b3a.177 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Tue, 28 Jan 2025 18:26:21 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <NfGcTWHSbHDfaUmSnl3fbku7AY0IdQqUaaemzb2brZI@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1738085185 d2e1a72fcca58-72f8a78f18asm9662265b3a.177 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-72f8a78f18asm9662265b3a.177 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-21da414df98sm91391905ad.190 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.115.31.111]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.115.31.111]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-21da414df98sm91391905ad.190 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-21da414df98sm91391905ad.190 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead d9443c01a7336-21da414df98sm91391905ad.190 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Wed, 29 Jan 2025 08:05:32 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <5ArKscXhsnroiqE8wtAs9s7BpXTznMKe60oWgTz7iw@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1738134337 d9443c01a7336-21da414df98sm91391905ad.190 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-21da414df98sm91391905ad.190 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-21de3300880sm16975225ad.168 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-21de3300880sm16975225ad.168 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-21de3300880sm16975225ad.168 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead d9443c01a7336-21de3300880sm16975225ad.168 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Thu, 30 Jan 2025 19:11:24 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <HeaGm8zINpQMDvnAz767AAdsHvTjhbmL1b2uyBXJbA@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1738260689 d9443c01a7336-21de3300880sm16975225ad.168 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-21de3300880sm16975225ad.168 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-2f848aa0498sm2054853a91.34 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-2f848aa0498sm2054853a91.34 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-2f848aa0498sm2054853a91.34 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-2f848aa0498sm2054853a91.34 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Thu, 30 Jan 2025 20:42:27 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <URqF1fanmXtwsCtZof8hk70J1MzY2xviaaUWfDEHI8c@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1738266151 98e67ed59e1d1-2f848aa0498sm2054853a91.34 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-2f848aa0498sm2054853a91.34 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-21de32ea5bbsm17694365ad.150 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-21de32ea5bbsm17694365ad.150 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-21de32ea5bbsm17694365ad.150 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead d9443c01a7336-21de32ea5bbsm17694365ad.150 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Thu, 30 Jan 2025 20:43:07 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <WxmgxGbUepx2CmDSrpAkS8p1syHL0tAlYEIBKOJNwo@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1738266191 d9443c01a7336-21de32ea5bbsm17694365ad.150 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-21de32ea5bbsm17694365ad.150 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-72fe653a9f3sm1848753b3a.75 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-72fe653a9f3sm1848753b3a.75 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-72fe653a9f3sm1848753b3a.75 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-72fe653a9f3sm1848753b3a.75 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Thu, 30 Jan 2025 20:53:19 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <3nrrexyhcoRnOgWvegCLOCqc70hS8iv72AvcnxyjyA@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1738266803 d2e1a72fcca58-72fe653a9f3sm1848753b3a.75 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-72fe653a9f3sm1848753b3a.75 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-72fe631beb1sm1849520b3a.5 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-72fe631beb1sm1849520b3a.5 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<manidumaneeshaww@outlook.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-72fe631beb1sm1849520b3a.5 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-72fe631beb1sm1849520b3a.5 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Thu, 30 Jan 2025 20:53:25 +0100
+Debug level 1: CLIENT -> SERVER: To: Manidu Maneesha <manidumaneeshaww@outlook.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <RXwH8TPoMRM43J11cjlDQoRIailciLKEpUpa4OSMs@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear Manidu Maneesha,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1738266809 d2e1a72fcca58-72fe631beb1sm1849520b3a.5 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-72fe631beb1sm1849520b3a.5 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-2f84897a504sm2099339a91.7 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-2f84897a504sm2099339a91.7 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-2f84897a504sm2099339a91.7 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-2f84897a504sm2099339a91.7 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Thu, 30 Jan 2025 20:57:47 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <0bZK8nB0iN15A9Gwf6ZlM2wgiDGbIB6pAHbfX2re8Fw@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1738267071 98e67ed59e1d1-2f84897a504sm2099339a91.7 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-2f84897a504sm2099339a91.7 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-72fe69ba2d6sm1886932b3a.109 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-72fe69ba2d6sm1886932b3a.109 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<manidumaneeshaw@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-72fe69ba2d6sm1886932b3a.109 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-72fe69ba2d6sm1886932b3a.109 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Thu, 30 Jan 2025 20:57:52 +0100
+Debug level 1: CLIENT -> SERVER: To: Manidu Maneesha <manidumaneeshaw@gmail.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <q8KHDsEmj6rVKUIIfyx5eAcLJTYKpAhLFt17SDtU@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear Manidu Maneesha,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1738267076 d2e1a72fcca58-72fe69ba2d6sm1886932b3a.109 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-72fe69ba2d6sm1886932b3a.109 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 41be03b00d2f7-acebe384272sm1529854a12.18 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK 41be03b00d2f7-acebe384272sm1529854a12.18 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK 41be03b00d2f7-acebe384272sm1529854a12.18 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead 41be03b00d2f7-acebe384272sm1529854a12.18 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Thu, 30 Jan 2025 21:01:41 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <K7veWyZZRjCiEuqOhsStOcUD8E4eLZNQt7zmNmqg3A@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1738267305 41be03b00d2f7-acebe384272sm1529854a12.18 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection 41be03b00d2f7-acebe384272sm1529854a12.18 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-21de3303a6esm17903345ad.203 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-21de3303a6esm17903345ad.203 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<manidumaneeshaw@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-21de3303a6esm17903345ad.203 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead d9443c01a7336-21de3303a6esm17903345ad.203 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Thu, 30 Jan 2025 21:01:46 +0100
+Debug level 1: CLIENT -> SERVER: To: Manidu Maneesha <manidumaneeshaw@gmail.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <sAkZ8Ep08BCT9MjTD47Baa4QqEhOzfdW7vDbMdS0@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear Manidu Maneesha,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1738267310 d9443c01a7336-21de3303a6esm17903345ad.203 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-21de3303a6esm17903345ad.203 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 41be03b00d2f7-acfc716167dsm194959a12.64 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK 41be03b00d2f7-acfc716167dsm194959a12.64 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<example@domain.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK 41be03b00d2f7-acfc716167dsm194959a12.64 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead 41be03b00d2f7-acfc716167dsm194959a12.64 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Thu, 30 Jan 2025 21:10:32 +0100
+Debug level 1: CLIENT -> SERVER: To: John Doe <example@domain.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <pKkXaYQ8ICjum3s5ksIMChVwEEvE8iRLFb09P924@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear John Doe,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1738267836 41be03b00d2f7-acfc716167dsm194959a12.64 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection 41be03b00d2f7-acfc716167dsm194959a12.64 - gsmtp
+Debug level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-21de32eb9f1sm17660015ad.115 - gsmtp
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: STARTTLS
+Debug level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+Debug level 1: CLIENT -> SERVER: EHLO 127.0.0.1
+Debug level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [203.189.184.185]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+Debug level 1: CLIENT -> SERVER: AUTH LOGIN
+Debug level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+Debug level 1: CLIENT -> SERVER: [credentials hidden]Debug level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+Debug level 1: CLIENT -> SERVER: MAIL FROM:<ypremium.in1@gmail.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-21de32eb9f1sm17660015ad.115 - gsmtp
+Debug level 1: CLIENT -> SERVER: RCPT TO:<manidumaneeshaww@outlook.com>
+Debug level 2: SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-21de32eb9f1sm17660015ad.115 - gsmtp
+Debug level 1: CLIENT -> SERVER: DATA
+Debug level 2: SERVER -> CLIENT: 354 Go ahead d9443c01a7336-21de32eb9f1sm17660015ad.115 - gsmtp
+Debug level 1: CLIENT -> SERVER: Date: Thu, 30 Jan 2025 21:10:37 +0100
+Debug level 1: CLIENT -> SERVER: To: Manidu Maneesha <manidumaneeshaww@outlook.com>
+Debug level 1: CLIENT -> SERVER: From: KidsGrow Team <ypremium.in1@gmail.com>
+Debug level 1: CLIENT -> SERVER: Subject: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: Message-ID: <gEF3NAXFmhm638BKUjhld83fJ8hgRI1Q2QE9brPZsS4@127.0.0.1>
+Debug level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+Debug level 1: CLIENT -> SERVER: MIME-Version: 1.0
+Debug level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Dear Manidu Maneesha,
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Welcome to KidsGrow!
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Thank you for joining our platform. We're thrilled to have you onboard as part of our growing community. If you have any questions or need assistance, feel free to reach out to us at any time.
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: Best regards,
+Debug level 1: CLIENT -> SERVER: The KidsGrow Team
+Debug level 1: CLIENT -> SERVER: 
+Debug level 1: CLIENT -> SERVER: .
+Debug level 2: SERVER -> CLIENT: 250 2.0.0 OK  1738267841 d9443c01a7336-21de32eb9f1sm17660015ad.115 - gsmtp
+Debug level 1: CLIENT -> SERVER: QUIT
+Debug level 2: SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-21de32eb9f1sm17660015ad.115 - gsmtp
